@@ -51,7 +51,7 @@
                         <p>{{ success_message }}</p>
                         {% endif %}
 					<div class="wrap-input100 validate-input" data-validate = "You need to Upload your SQL Dump">
-						<input class="input100" id="file" type="file" name="myfile" placeholder="File">
+						<input class="input100" id="file" type="file" name="myfile" placeholder="File" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-file" aria-hidden="true"></i>
@@ -59,7 +59,7 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "English-like query is required">
-						<textarea id="message" class="input100" name="message" placeholder="Enter Your SQL Like Query in English"></textarea>
+						<textarea id="message" class="input100" name="message" placeholder="Enter Your SQL Like Query in English" required></textarea>
 						<span class="focus-input100"></span>
 					</div>
 
